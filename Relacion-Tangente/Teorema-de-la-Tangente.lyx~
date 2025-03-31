@@ -1,0 +1,1001 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass Plantilla
+\begin_preamble
+\usepackage{Plantilla}
+\end_preamble
+\use_default_options true
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children no
+\language spanish
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex8
+\index_command default
+\float_placement H
+\float_alignment class
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize custom
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 30cm
+\paperheight 39cm
+\leftmargin 3cm
+\topmargin 5cm
+\rightmargin 3cm
+\bottommargin 3cm
+\columnsep 1cm
+\secnumdepth 5
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 2
+\papersides 2
+\paperpagestyle default
+\tablestyle default
+\bullet 0 2 1 -1
+\bullet 1 2 14 -1
+\bullet 2 2 16 -1
+\bullet 3 2 34 -1
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 3
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Titulo
+Teorema de la Tangente
+\end_layout
+
+\begin_layout Autores
+Julián Andrés Rincón Penagos
+\end_layout
+
+\begin_layout AutoresCorto
+Julián Andrés Rincón Penagos
+\end_layout
+
+\begin_layout Correo
+jarinconapps@gmail.com
+\end_layout
+
+\begin_layout Materia
+Matemáticas Aplicadas
+\end_layout
+
+\begin_layout Institucion
+Jarincon Apps Enterprise
+\end_layout
+
+\begin_layout Fecha
+Marzo de 2025
+\end_layout
+
+\begin_layout NombreCapitulo
+Teorema de la Tangente
+\end_layout
+
+\begin_layout TipoCapitulo
+Artículo
+\end_layout
+
+\begin_layout NumeroArticulo
+0
+\end_layout
+
+\begin_layout Capitulo
+Teorema de la Tangente
+\end_layout
+
+\begin_layout InformacionAutor
+
+\end_layout
+
+\begin_layout Seccion*
+Resumen
+\end_layout
+
+\begin_layout Standard
+En este artículo voy a presentar el Teorema de la Tangente.
+ Es una breve aplicación de la trigonometría a la resolución de triángulos.
+ Vamos a ver cuál es el origen de la aplicación,
+ como se puede demostrar la relación y que aplicaciones le podemos dar en el área de la trigonometría y las matemáticas en general.
+\end_layout
+
+\begin_layout Seccion
+Origen del Teorema
+\end_layout
+
+\begin_layout Standard
+Un aplicación muy importante de la trigonometría es la resolución de triángulos.
+ Por lo general para resolver un triángulo tenemos información de los catetos y los ángulos,
+ con esto podemos completar la información del Triángulo.
+ Para el caso que nos ocupa,
+ observemos la siguiente imagen en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Situacion-Resolver"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Triangulo-Situacion-Problema.pdf
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Situación a Resolver 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Situacion-Resolver"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De este triángulo conocemos el ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y 
+\begin_inset Formula $\beta$
+\end_inset
+
+ además la distancia 
+\begin_inset Formula $d$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alguna aplicación para este tipo de triángulo puede ser:
+ Supongamos que necesitamos medir la distancia 
+\begin_inset Formula $x$
+\end_inset
+
+ y la altura 
+\begin_inset Formula $y$
+\end_inset
+
+,
+ entonces,
+ medir 
+\begin_inset Formula $x$
+\end_inset
+
+ tiene sus respectivas dificultades,
+ tal vez se la base de una formación rocosa,
+ un lago,
+ y 
+\begin_inset Formula $y$
+\end_inset
+
+ puede por ejemplo representar la altura de un edificio o una formación rocosa,
+ una cordillera,
+ etc.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La situación además se presenta como una herramienta para encontrar esas medidas inaccesibles.
+ En primer lugar medimos un ángulo inicial 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ en elevación al máximo de 
+\begin_inset Formula $y$
+\end_inset
+
+,
+ nos desplazamos una distancia 
+\begin_inset Formula $d$
+\end_inset
+
+ y allí realizamos una segunda medición de ángulo 
+\begin_inset Formula $\beta$
+\end_inset
+
+ al máximo de 
+\begin_inset Formula $y$
+\end_inset
+
+.
+ Con estos tres datos podemos encontrar 
+\begin_inset Formula $x$
+\end_inset
+
+ e 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Seccion
+Forma de la Relación
+\end_layout
+
+\begin_layout Standard
+Consideremos el primer triángulo,
+ tal como se muestra en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:relacion-1"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/triangulo-1.pdf
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Triángulo con ángulo base de ángulo 
+\begin_inset Formula $\beta$
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Triangulo-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De este triángulo 
+\begin_inset Formula 
+\[
+\tan\beta=\dfrac{y}{x}
+\]
+
+\end_inset
+
+ despejamos a 
+\begin_inset Formula $y$
+\end_inset
+
+ y tenemos 
+\begin_inset Formula 
+\begin{equation}
+y=x\tan\beta\label{eq:relacion-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tomando el otro triángulo,
+ como se muestra en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Triangulo-2"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/triangulo-2.pdf
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Triángulo con ángulo base de ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Triangulo-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De este triángulo,
+ 
+\begin_inset Formula 
+\[
+\tan\alpha=\dfrac{y}{d+x}
+\]
+
+\end_inset
+
+ despejamos a 
+\begin_inset Formula $y$
+\end_inset
+
+ y tenemos,
+ 
+\begin_inset Formula 
+\begin{equation}
+y=\left(d+x\right)\tan\alpha\label{eq:relacion-2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Luego como la altura 
+\begin_inset Formula $y$
+\end_inset
+
+ es la misma,
+ podemos iguales las ecuaciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:relacion-1"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:relacion-2"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+,
+ así,
+ 
+\begin_inset Formula 
+\[
+x\tan\beta=\left(d+x\right)\tan\alpha
+\]
+
+\end_inset
+
+ aplicamos la propiedad distributiva con respecto a la suma,obtenemos,
+ 
+\begin_inset Formula 
+\[
+x\tan\beta=d\tan\alpha+x\tan\alpha
+\]
+
+\end_inset
+
+sumamos en ambos lados 
+\begin_inset Formula $x\tan\beta$
+\end_inset
+
+,
+ entonces 
+\begin_inset Formula 
+\[
+x\tan\beta-x\tan\alpha=d\tan\alpha
+\]
+
+\end_inset
+
+ factorizamos a 
+\begin_inset Formula $x$
+\end_inset
+
+,
+ 
+\begin_inset Formula 
+\[
+x\left(\tan\beta-\tan\alpha\right)=d\tan\alpha
+\]
+
+\end_inset
+
+ y dividimos la ecuación por 
+\begin_inset Formula $\left(\tan\beta-\tan\alpha\right)$
+\end_inset
+
+,
+ así,
+ 
+\begin_inset Formula 
+\begin{equation}
+x=\dfrac{d\tan\alpha}{\tan\beta-\tan\alpha}\label{eq:valor-teorema-para-x}
+\end{equation}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Luego reemplazamos 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:valor-teorema-para-x"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+ en 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:relacion-1"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+,
+ así 
+\begin_inset Formula 
+\begin{align*}
+y & =\left(\dfrac{d\tan\alpha}{\tan\beta-\tan\alpha}\right)\tan\beta
+\end{align*}
+
+\end_inset
+
+ por lo tanto 
+\begin_inset Formula 
+\begin{equation}
+y=\dfrac{d\tan\beta\tan\alpha}{\tan\beta-\tan\alpha}\label{eq:teorema-para-y}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Seccion
+Teorema
+\end_layout
+
+\begin_layout Teorema
+Teorema de la Tangente
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sea el triángulo de la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Situacion-Resolver"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+,
+ con valores conocidos 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y 
+\begin_inset Formula $\beta$
+\end_inset
+
+ ángulos de elevación y 
+\begin_inset Formula $d$
+\end_inset
+
+ distancia recorrida entre 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y 
+\begin_inset Formula $\beta$
+\end_inset
+
+,
+ el valor de 
+\begin_inset Formula $x$
+\end_inset
+
+ esta dado por 
+\begin_inset Formula 
+\[
+x=x=\dfrac{d\tan\alpha}{\tan\beta-\tan\alpha}
+\]
+
+\end_inset
+
+ y el valor de 
+\begin_inset Formula $y$
+\end_inset
+
+ por 
+\begin_inset Formula 
+\[
+y=\dfrac{d\tan\beta\tan\alpha}{\tan\beta-\tan\alpha}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Este resultado ya lo había escrito en el siguiente libro:
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "rincon2015trigonometria"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Seccion
+Aplicación
+\end_layout
+
+\begin_layout Ejemplo
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Supongamos que queremos calcular la altura de la torre Eiffel.
+ Nos paramos a una distancia desconocida de la torre,
+ desde allí mediante un telescopio tomamos la medida en grados de elevación del extremo de la torre,
+ esta medida nos da 
+\begin_inset Formula $30.22°$
+\end_inset
+
+,
+ luego nos acercamos 
+\begin_inset Formula $114.28$
+\end_inset
+
+ metros y tomamos una nueva medición del ángulo de elevación de 
+\begin_inset Formula $36.87°$
+\end_inset
+
+.
+ Usar el teorema de la Tangente para encontrar la distancia desde el punto de observación a la base de la torre y la altura de la torre.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El problema lo podemos representar mediante el gráfico que se muestra en la figura 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Problema-Practico.pdf
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Representación del Problema
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Usando el teorema de la tangente tenemos que 
+\begin_inset Formula 
+\begin{align*}
+x & =\dfrac{115\tan\left(30.22\textdegree\right)}{\tan\left(36.87\textdegree\right)-\tan\left(30.22\textdegree\right)}\\
+ & =399.86123486554\\
+ & \approx400\text{ m}
+\end{align*}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+En la siguiente captura de pantalla se puede observar el cálculo mediante la calculadora TI-Nspire CX II 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Calculo-Valor-X.png
+	lyxscale 50
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cálculo del Valor de 
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y para calcular el valor de 
+\begin_inset Formula $y$
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align*}
+x & =\dfrac{115\tan\left(36.87\textdegree\right)\tan\left(30.22\textdegree\right)}{\tan\left(36.87\textdegree\right)-\tan\left(30.22\textdegree\right)}\\
+ & =299.897\\
+ & \approx300\text{ m }
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En la siguiente captura de pantalla se puede observar el cálculo de 
+\begin_inset Formula $y$
+\end_inset
+
+ mediante la calculadora TI-Nspire CX II 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement document
+alignment document
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/Calculo-Valor-Y.png
+	lyxscale 50
+	width 12cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cálculo del Valor de 
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubseccion*
+Respuesta
+\end_layout
+
+\begin_layout Standard
+La distancia desde la última medición a la base de la torre es 
+\begin_inset Formula $400$
+\end_inset
+
+ metros y la altura de la torre es de 
+\begin_inset Formula $300$
+\end_inset
+
+ metros.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+bibname}{Referencias}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "Bibliografia"
+options "bibtotoc"
+encoding "default"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
